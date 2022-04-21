@@ -1,10 +1,14 @@
 import './Nav.css'
+import Button from 'react-bootstrap/Button';
 function Nav (){
     return(
-        <div>
-            
-            <h1 className="text1">Im my </h1>
-        </div>
+        
+        <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""></img>
+          Bootstrap
+        </a>
+      </nav>
     )
 }
 
